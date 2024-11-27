@@ -27,21 +27,22 @@ python POST_request.py
 POST_request.ps1
 ```
 
-## ***Conclusiones***📓
-
-🔸*...*
-
-🔸*...*
-
-🔸*...*
-
 ## ***Dificultades***
 
-🔸*...*
+🔸*Implementar una interfaz web funcional y amigable fue un desafío, especialmente al integrar los comandos de PowerShell y Bash con tecnologías web. La configuración inicial para generar y actualizar dinámicamente una tabla HTML con los datos de los procesos requería trabajo adicional para manejar correctamente la comunicación entre el backend y la interfaz.*
 
-🔸*...*
+🔸*En Linux, Bash surgieron problemas de permisos al intentar detener procesos que requerían privilegios administrativos, lo que exigió implementar una verificación adecuada de permisos.*
 
-🔸*...*
+🔸*En Windows, PowerShell presentó problemas al manejar procesos con nombres duplicados o que finalizaban antes de la ejecución del comando de cancelación.*
+
+## ***Conclusiones***📓
+
+🔸*Este proyecto destacó las diferencias fundamentales entre la administración de procesos en Windows y Linux. Aunque ambos sistemas soportan tareas similares, su implementación y los comandos requeridos son muy distintos. Esto resalta la importancia de entender las particularidades de cada sistema operativo al desarrollar herramientas administrativas.*
+
+🔸*Este proyecto mostró cómo automatizar tareas rutinarias puede simplificar la administración de un centro de datos y reducir errores humanos. La experiencia sugiere que herramientas similares podrían extenderse para incluir funciones adicionales, como el monitoreo del uso de recursos o alertas automáticas.*
+
+🔸*Implementar restricciones para que solo usuarios con los permisos adecuados pudieran cancelar procesos fue un aspecto crítico. Este proyecto reforzó la importancia de validar cuidadosamente las acciones del usuario, especialmente en tareas administrativas sensibles.*
+
 
 ## ***Authors*** ✒️
 
